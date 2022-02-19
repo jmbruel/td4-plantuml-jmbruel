@@ -2,8 +2,8 @@
 !include config.cfg
 
 class Toto {
-    name
-    surname
+    nom
+    prenom
 }
 
 @enduml
