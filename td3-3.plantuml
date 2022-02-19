@@ -1,0 +1,11 @@
+@startuml TD3
+hide circle
+hide empty methods
+'hide empty fields
+
+class Toto {
+    name
+    surname
+}
+
+@enduml
