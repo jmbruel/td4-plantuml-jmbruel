@@ -1,0 +1,50 @@
+= Diagrammes de classes avec plantUML
+Jean-Michel Bruel <jbruel@gmail.com>
+//v1, 2022-02-19 : Initial draft
+v1.1, 2022-02-19 : Add template for Maven
+
+// Useful definitions
+:plantuml: https://plantuml.com/fr/[plantUML]
+:diagrams: .
+
+image:https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg["Open in Visual Studio Code",link="https://classroom.github.com/online_ide?assignment_repo_id=7083920&assignment_repo_type=AssignmentRepo"]
+
+Ce TP vise à pratiquer la notation {plantuml} pour écrire vos diagrammes de classes (et tous les diagrammes UML du BUT).
+
+== Mise en place
+
+Si vous lisez ce document c'est que vous avez réalisé la manipulation suivante :
+
+. Vous avez créé un dépôt en clicquant sur le lien :
+. Vous avez ouvetr ce fichier dans votre {vscode} (si vous l'avez sur votre machine) ou sur la version en ligne (recommandé pour un premier TP , surtout si vous ne connaissez pas {git}).
+
+
+== PlantUML
+
+Explorez rapidement le site de {plantuml} pour vous familiariser avec son organisation. Observez les exemples de code et les rendus correspondants.
+
+Dans le fichier d'exemple fourni dans ce dépôt, notez l'utilisation d'un import de fichier.
+
+À quoi sert cet import ?
+
+
+== Consignes et rendus
+
+Pour ce TP, il vous faudra produire pour chacune des figures du TD3...
+
+
+== Intérêt du format plantUML
+
+Outre que vous avez l'impression de "coder" vos diagrammes ((utilisation de variables, séparation du fond et de la forme, ...), l'intérêt est que ces notations textuelles s'insèrent directement dans de l'asciidoc (formar de ce fichier par exemple).
+
+.Exemple de diagramme directement rendu par l'interpréteur asciidoc
+[plantuml, format="svg", target="test", width="80%"]
+----
+include::{diagrams}/test.plantUML[]
+----
+
+[WARNING]
+====
+Si vous voyez du code au lieu d'une image dans ce fichier, ou une image qui ne correspond pas à ce que vous attendiez, c'est que GitHub n'a pas encore terminé de générer l'image souhaitée.
+Testez de rafracihir dans un instant.
+====

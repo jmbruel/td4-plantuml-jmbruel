@@ -1,0 +1,9 @@
+@startuml TD3
+!include config.cfg
+
+class Toto {
+    name
+    surname
+}
+
+@enduml
