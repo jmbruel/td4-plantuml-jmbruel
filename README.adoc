@@ -52,7 +52,7 @@ Pour ce TP, il vous faudra produire pour chacune des figures du TD3...
 
 == Intérêt du format plantUML
 
-Outre que vous avez l'impression de "coder" vos diagrammes ((utilisation de variables, séparation du fond et de la forme, ...), l'intérêt est que ces notations textuelles s'insèrent directement dans de l'asciidoc (formar de ce fichier par exemple).
+Outre que vous avez l'impression de "coder" vos diagrammes ((utilisation de variables, séparation du fond et de la forme, ...), l'intérêt est que ces notations textuelles s'insèrent directement dans de l'asciidoc (format de ce fichier par exemple).
 
 ifndef::env-github[]
 .Exemple de diagramme directement rendu par l'interpréteur asciidoc
@@ -67,9 +67,9 @@ ifdef::env-github[]
 image::test.svg[width=80%]
 endif::[]
 
-[NOTE]
+[WARNING]
 ====
 GitHub utilise son propre moteur de rendu {asciidoc}, d'où les nombreuses clauses conditionnelles dans ce fichier, qui permettent d'avoir à peu près le même rendu que vous visionez la version HTML (générée par la commande `asciidoctor -r asciidoctor-diagram README.adoc`, que vous pouvez testez dans votre terminal) ou la version GitHub de ce rendu.
 ====
 
-WARNING: Si vous utilisez la version en ligne de {vscode} il vous faut exécuter la commande `bundle` pour installer les outils {asciidoc}.
+CAUTION: Si vous utilisez la version en ligne de {vscode} il vous faut exécuter la commande `bundle` pour installer les outils {asciidoc}.
