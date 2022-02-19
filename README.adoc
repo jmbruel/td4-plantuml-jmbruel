@@ -43,6 +43,9 @@ Outre que vous avez l'impression de "coder" vos diagrammes ((utilisation de vari
 include::{diagrams}/test.plantUML[]
 ----
 
+.Exemple de diagramme directement intégré en image
+image::test2.svg[width=80%]
+
 [WARNING]
 ====
 Si vous voyez du code au lieu d'une image dans ce fichier, ou une image qui ne correspond pas à ce que vous attendiez, c'est que GitHub n'a pas encore terminé de générer l'image souhaitée.
