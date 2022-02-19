@@ -1,7 +1,5 @@
 @startuml TD3
-hide circle
-hide empty methods
-'hide empty fields
+!include config.cfg
 
 class Toto {
     name
